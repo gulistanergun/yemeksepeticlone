@@ -1,0 +1,77 @@
+/* src/components/header.css */
+
+/* Genel Header Stili */
+header {
+    background-color: #f8f9fa;
+    padding: 0px 20px;
+    height: 64px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header_nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+
+
+  /* Dil Değiştirme Butonları */
+  header button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  header button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Tasarım */
+  @media (max-width: 768px) {
+    header nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  .header_logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 40px;
+  }
+
+  .header_logo-img {
+    width: 120px; /* Logonun genişliği */
+    height: auto; /* Yüksekliğin orantılı olmasını sağlar */
+    transition: transform 0.3s ease; /* Hover animasyonu için */
+  }
+
+ .giris-btn{
+  border: 1px solid #000 !important;
+ }
+ .sigup-btn{
+  background-color: #ea004b;
+  color: #ffffff;
+  transition: 0.2s ease; /* Geçiş efekti */
+ }
+ .sigup-btn:hover{
+  padding: 0.50rem  0.8rem;
+  background-color: #ea004b;
+  color: #fff;
+ }
+.user_box{display: none;}
+ @media (max-width: 568px){
+  .header_auth-buttons,.header_language-switch{
+    display: none;
+  }
+  .user_box{display: block;}
+ }
