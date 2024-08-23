@@ -1,0 +1,8 @@
+[
+    { "id": 1, "name": "Ankara", "image": "ankara.webp" },
+    { "id": 2, "name": "Antalya", "image": "antalya.webp" },
+    { "id": 3, "name": "Bursa", "image": "bursa.webp" },
+    { "id": 4, "name": "İstanbul", "image": "istanbul.webp" },
+    { "id": 5, "name": "İzmir", "image": "izmir.webp" }
+    
+  ]

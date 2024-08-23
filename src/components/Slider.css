@@ -1,0 +1,52 @@
+/* Slider Component*/
+
+.slider{
+    background-color: #F7F7F7;
+    margin-bottom: 80px;
+}
+.slider-img{
+
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: left;
+    height: 600px;
+
+   
+}
+.slider-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-box{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Dikey olarak ortalar */
+    align-items: center; /* Yatay olarak ortalar */
+    text-align: left;
+    width: 80%;
+   
+}
+.slider-box h1{ 
+    font-weight: 400;
+}
+
+.search-box{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgb(179, 179, 179);
+
+}
+
+.search-input{
+    padding: 10px;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    width: 100%;
+    margin-right: 5px;
+}
