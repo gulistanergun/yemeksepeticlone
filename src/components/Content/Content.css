@@ -1,0 +1,168 @@
+.banner{
+    margin-top: 20px;
+    padding-bottom: 200px;
+    text-align: left;
+}
+
+.banner-img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 400px;
+ 
+
+}
+
+.info-sinir{
+    position: relative;
+}
+.info-box{
+    background-color: #fff;
+    border: 1px solid #9b9b9b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgb(95 95 95);
+    position: absolute;
+    top: -100px;
+    z-index: 10;
+}
+
+/*City Card Css*/
+.city-card{
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+}
+.city-card:hover>.city-img{
+    transform: scale(1.2); 
+    transition: transform 0.3s ease-in-out; 
+}
+.city-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; 
+}
+.city-card span{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #fff;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/* INFO UYGULAMA */
+.info-uyg{
+    margin-top: 20px;
+    padding-bottom: 200px;
+    text-align: left;
+   
+}
+
+.uyg-box {
+    margin-top: 30px;
+    background-color: #EA004B;
+    border: 1px solid #c9c7c7;
+    height: 390px;
+    border-radius: 20px;
+}
+
+.uyg-left-box{
+    display: flex;
+    align-items: center;
+}
+
+.uyg-left-box p{
+    color: #fff;
+    font-size: 24px; 
+
+}
+.info-text p{
+    font-size: 18px;
+}
+
+.qr-img {
+    border: 1px solid #c8c8c8;
+    padding: 7px; 
+    border-radius: 7px;
+
+}
+.qr-img img{
+    max-width: 100px;
+}
+.app-img-box{
+    position: relative;
+    
+}
+
+.app-box img{
+    
+    max-width: 100%;
+}
+
+.app-img{
+    position: absolute;
+    top: -20%;
+    left: -10%;
+    height: 140%;
+    max-width: 100%;
+    object-fit: cover;
+   
+}
+
+/*home-info section */
+.home-info{
+    text-align: left;    
+    
+}
+.home-info p{
+    color: #939393;
+    font-size: 17px;
+}
+
+ol {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+.color-link{
+    color: #fa0050;
+}
+
+/*Section Mutfak şehir*/
+.mutfak-list{
+    text-align: left;
+}
+
+.mutfak-liste{
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.mutfak-liste li{
+    
+    padding: 3px;
+    padding-left: 0;
+}
+.mutfak-liste strong a{
+    color: #000;
+}
+
+.mutfak-liste li a {
+    color: #000;
+    text-decoration: none; 
+    border-bottom: 1px solid black; 
+
+    transition: width 0.3s ease, height 0.3s ease; 
+}
+
+.mutfak-liste li a:hover {
+    border-bottom: 3px solid black; 
+}
+
+.sehir-list{
+    text-align: left;
+}

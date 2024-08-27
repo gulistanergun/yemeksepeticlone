@@ -51,9 +51,9 @@ header {
   }
 
   .header_logo-img {
-    width: 120px; /* Logonun genişliği */
-    height: auto; /* Yüksekliğin orantılı olmasını sağlar */
-    transition: transform 0.3s ease; /* Hover animasyonu için */
+    width: 120px; 
+    height: auto; 
+    transition: transform 0.3s ease; 
   }
 
  .giris-btn{

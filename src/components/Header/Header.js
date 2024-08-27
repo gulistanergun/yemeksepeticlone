@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './Header.css';
-import logo from '../assets/images/logo.png'; 
+import logo from '../../assets/images/logo.png'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBasketShopping, faUser } from '@fortawesome/free-solid-svg-icons'; 
 
@@ -44,7 +44,7 @@ function Header() {
                 </ul>
               </div>           
             </div> 
-            <a className="btn btn"><FontAwesomeIcon icon={faBasketShopping} /></a>
+            <a className="btn "><FontAwesomeIcon icon={faBasketShopping} /></a>
           </div>
      
                

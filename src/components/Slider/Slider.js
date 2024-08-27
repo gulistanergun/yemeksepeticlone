@@ -1,5 +1,5 @@
 import React from 'react'
-import slider from '../assets/images/slider.webp'; 
+import slider from '../../assets/images/slider.webp'; 
 import './Slider.css';
 
 
