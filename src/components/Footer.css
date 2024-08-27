@@ -10,3 +10,55 @@
     padding: 10px;
     
 }
+.footer-list ul{
+    list-style-type: none; 
+    text-align: left;
+    font-size: 18px;
+}
+.footer-list ul li{
+    padding: 8px;
+}
+
+.footer-list ul li a{
+    color: #2c2c2c;
+    text-decoration: none; 
+    border-bottom: 1px solid black; 
+    transition: width 0.3s ease, height 0.3s ease; 
+}
+
+
+.footer-list ul li a:hover {
+    border-bottom: 3px solid black; 
+}
+
+.logo-img{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 40px;
+  }
+
+  .logo-img {
+    width: 120px; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+  }
+
+ .social-box li{
+    list-style-type: none; 
+    border: 1px solid #767676;
+    margin: 10px;
+    border-radius: 50%;
+ }
+ .social-box li a{ 
+    border-radius: 50%;
+ }
+ .social-box li a:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgb(95 95 95);
+   }
+ .social-box li a:active {
+   border:none;
+  }
+
+ 

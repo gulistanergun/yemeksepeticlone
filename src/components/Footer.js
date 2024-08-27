@@ -2,6 +2,11 @@ import React from 'react';
 import guvendamga  from '../assets/images/guvendamga.png';
 import indir  from '../assets/images/indir.jpeg';
 import './Footer.css';
+import logo from '../assets/images/logo.png'; 
+import deliveryhero from '../assets/images/deliveryhero.png'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedinIn, faInstagram, faFacebook, faTwitter, faXTwitter, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faX } from '@fortawesome/free-solid-svg-icons';
 
  function Footer() {
   return (
@@ -20,23 +25,63 @@ import './Footer.css';
     <section>
         <div className='footer-content'>
             <div className='container'>
-                <div className='row'>
+                <hr />
+                <div className='row footer-list mt-4'>
                     <div className='col-md-3'>
                         <span>© Yemeksepeti</span>
                     </div>
                     <div className='col-md-3'>
                         <ul>
                             <li><a href="">Yardım Merkezi</a></li>
-                            <li>Çerez Politikası</li>
-                            <li>Kurumsal Site</li>
-                            <li></li>
+                            <li><a href="">Çerez Politikası</a></li>
+                            <li><a href="">Kurumsal Site</a></li>
+                            <li><a href="">Bilgi Toplumu Hizmetleri</a></li>                            
+                        </ul>
+                    </div>
+                    <div className='col-md-3'>
+                        <ul>
+                            <li><a href="">Kullanım Koşulları </a></li>
+                            <li><a href="">İletişim </a></li>
+                            <li><a href="">Aydınlatma Metni </a></li>
+                            <li><a href="">Yemek Sapeti App İndir </a></li>
+                            
+                        </ul>
+                    </div>
+                    <div className='col-md-3'>
+                        <ul>
+                            <li><a href="">S.S.S ve İşlem Rehberi </a></li>
+                            <li><a href="">İş Ortağımız Olun</a></li>
+                            <li><a href="">Kişisel Verilerin Korunması ve İşlenmesi ve Gizlilik Politikası</a></li>
+                            <li><a href="">Türkiyedeki tüm Şehirler</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <br /> <br /> <br /> <br />
+    <br /> <br /> 
+    <section>
+        <div className='container'>
+            <div className='row '>
+                <div className='col-md-6 d-flex align-items-center'>
+                    <span>
+                        <img src={logo} alt="Logo" className="logo-img" />
+                    </span>
+                    <span>
+                        <img src={deliveryhero} alt="deliveryhero" className="logo-img"/>
+                    </span>
+                </div>
+                <div className='col-md-6'>
+                    <ul className='social-box d-flex justify-content-end'>
+                        <li><a href="https://www.linkedin.com/company/yemeksepeti" className='btn'> <FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                        <li><a href="https://www.instagram.com/yemeksepeti/" className='btn'> <FontAwesomeIcon icon={faInstagram} /></a></li>
+                        <li><a href="https://www.facebook.com/Yemeksepeti" className='btn'> <FontAwesomeIcon icon={faFacebookF} /></a></li>
+                        <li><a href="https://x.com/yemeksepeti" className='btn'> <FontAwesomeIcon icon={faXTwitter} /></a></li>
+                    </ul>          
+                </div>
+            </div>
+        </div>
+    </section>
     </>
   )
 }
