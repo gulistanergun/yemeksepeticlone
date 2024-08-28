@@ -1,6 +1,6 @@
 import React from 'react'
-import slider from '../../assets/images/slider.webp'; 
-import './Slider.css';
+import slider from '../assets/images/slider.webp'; 
+
 
 
  function Slider() {

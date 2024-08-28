@@ -1,12 +1,10 @@
 import React from 'react';
 import guvendamga  from '../assets/images/guvendamga.png';
 import indir  from '../assets/images/indir.jpeg';
-import './Footer.css';
 import logo from '../assets/images/logo.png'; 
 import deliveryhero from '../assets/images/deliveryhero.png'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faInstagram, faFacebook, faTwitter, faXTwitter, faFacebookF } from '@fortawesome/free-brands-svg-icons';
-import { faX } from '@fortawesome/free-solid-svg-icons';
 
  function Footer() {
   return (

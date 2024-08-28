@@ -1,8 +1,7 @@
 // src/components/Header.js
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import './Header.css';
-import logo from '../../assets/images/logo.png'; 
+import logo from '../assets/images/logo.png'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBasketShopping, faUser } from '@fortawesome/free-solid-svg-icons'; 
 
@@ -18,9 +17,9 @@ function Header() {
   return (
     <header> 
       <nav className='row header_nav'>
-        <div className='user_box col-2'>
-          <a className="btn "><FontAwesomeIcon icon={faUser} /></a>
-        </div>
+          <div className='user_box col-2'>
+            <a className="btn "><FontAwesomeIcon icon={faUser} /></a>
+          </div>
           <div className='col-md-3 col-8 '>
             <a href="/" className="header_logo">
               <span>
@@ -44,11 +43,10 @@ function Header() {
                 </ul>
               </div>           
             </div> 
-            <a className="btn "><FontAwesomeIcon icon={faBasketShopping} /></a>
+            <button className='btn' onClick={() => window.location.href = '#'}>
+              <FontAwesomeIcon icon={faBasketShopping} />
+            </button>
           </div>
-     
-               
-                
       </nav>
     </header>
   );
