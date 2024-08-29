@@ -18,7 +18,7 @@ function Header() {
     <header> 
       <nav className='row header_nav'>
           <div className='user_box col-2'>
-            <a className="btn "><FontAwesomeIcon icon={faUser} /></a>
+            <a href='/' className="btn "><FontAwesomeIcon icon={faUser} /></a>
           </div>
           <div className='col-md-3 col-8 '>
             <a href="/" className="header_logo">

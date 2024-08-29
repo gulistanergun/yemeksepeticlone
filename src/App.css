@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -178,7 +174,7 @@ color: #fff;
 /*Content CSS*/
 .banner{
     margin-top: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 60px;
     text-align: left;
 }
 
@@ -187,7 +183,7 @@ color: #fff;
     height: auto;
     object-fit: cover;
     height: 400px;
- 
+ margin-bottom: -180px;
 
 }
 
@@ -200,9 +196,16 @@ color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgb(95 95 95);
-    position: absolute;
-    top: -100px;
     z-index: 10;
+}
+
+@media (max-width: 768px){
+  .banner{
+    padding-bottom: 40px;
+  }
+  .info-box{
+    position: relative;
+  } 
 }
 
 /*City Card Css*/
@@ -231,6 +234,9 @@ color: #fff;
     padding: 10px 15px;
     border-radius: 10px;
 }
+
+
+
 
 /* INFO UYGULAMA */
 .info-uyg{
@@ -266,6 +272,7 @@ color: #fff;
     border: 1px solid #c8c8c8;
     padding: 7px; 
     border-radius: 7px;
+    height: fit-content;
 
 }
 .qr-img img{
@@ -282,14 +289,32 @@ color: #fff;
 }
 
 .app-img{
-    position: absolute;
-    top: -20%;
-    left: -10%;
-    height: 140%;
-    max-width: 100%;
-    object-fit: cover;
-   
+  position: absolute;
+  top: -20%;
+  left: -10%;
+  height: 140%;
+  max-width: 100%;
+  object-fit: cover;
+ 
 }
+
+@media (max-width: 768px) {
+  .uyg-box {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .app-box img{
+      max-width: 200px;
+  }
+  .app-box {
+    text-align: center;
+  }
+  .app-img {
+    position: static;
+  }
+}
+
+
 
 /*home-info section */
 .home-info{
@@ -412,6 +437,10 @@ ol {
 
 @media (max-width: 768px) {
   /* Mobil Css */
+  .search-box {
+    flex-direction: column;
+    align-items: stretch;
+  }
 
   .slider-box {
     display: flex;
