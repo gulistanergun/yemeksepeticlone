@@ -11,8 +11,6 @@ function App() {
      <Slider/>
      <Content/>
      <Footer/>
-
-     
     </div>
   );
 }

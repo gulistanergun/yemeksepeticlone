@@ -7,8 +7,6 @@ import izmir from '../assets/images/city/izmir.webp';
 import bursa from '../assets/images/city/bursa.webp';
 import antalya from '../assets/images/city/antalya.webp';
 
-
-
 const imageMapping = {
   'ankara.webp': ankara,
   'istanbul.webp': istanbul,

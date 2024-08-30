@@ -1,4 +1,3 @@
-// src/components/Header.js
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/images/logo.png'; 
@@ -6,14 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBasketShopping, faUser } from '@fortawesome/free-solid-svg-icons'; 
 
 
-function Header() {
+function Header(){
   const { t, i18n } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState('TR');
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
     setSelectedLanguage(lng.toUpperCase());
   };
-
   return (
     <header> 
       <nav className='row header_nav'>

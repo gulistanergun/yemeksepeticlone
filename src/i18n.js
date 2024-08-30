@@ -18,10 +18,10 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'tr', // Varsayılan dil
+    lng: 'tr', 
     fallbackLng: 'en',
     interpolation: {
-      escapeValue: false, // React'te XSS koruması sağlar
+      escapeValue: false, // React'te XSS koruması 
     },
   });
 
