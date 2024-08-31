@@ -372,7 +372,15 @@ ol {
       height: auto;
       object-fit: cover;
       object-position: left;
-      height: 200px;
+  }
+  .slider-img{
+    max-width: 80%;
+    height: auto;
+    object-fit: cover;
+    object-position: left;
+    margin-left: auto;
+    display: block;
+    height: 200px;
   }
   .slider-left {
     display: flex;
@@ -381,9 +389,10 @@ ol {
     position: absolute;
   }
   .slider-left h1{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
-    width: 50%;
+    width: 40%;
     align-items: left;
+    margin-bottom: 10px;
   }
 }

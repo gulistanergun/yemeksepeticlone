@@ -14,7 +14,7 @@ import slider from '../assets/images/slider.webp';
             </div>
           </div>
         </div>
-        <div className='col-md-5'>
+        <div className='col-md-5 slider-img'>
           <span>
             <img src={slider} alt="Slider" className="slider-img" />
           </span>
